@@ -247,7 +247,7 @@ export const siteContent: SiteContent = {
     },
     {
       name: "Pro",
-      price: "от 120 000 ₽",
+      price: "от 60 000 ₽",
       badge: "CRM под бизнес",
       timeframe: "Срок: от 3 до 6 недель",
       description:
