@@ -112,7 +112,7 @@ const contacts: Contacts = {
   phone: "+7 999 006-60-70",
   team: [
     {
-      name: "Саша",
+      name: "Александр",
       role: "CEO",
       telegram: "@dvertton",
       telegramUrl: "https://t.me/dvertton",

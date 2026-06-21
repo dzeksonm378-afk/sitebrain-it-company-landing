@@ -87,7 +87,7 @@ contacts: {
   phone: "+7 999 006-60-70",
   team: [
     {
-      name: "Саша",
+      name: "Александр",
       role: "CEO",
       telegram: "@dvertton",
       telegramUrl: "https://t.me/dvertton",
@@ -161,9 +161,9 @@ Stage 5 пока не выполнялся. Перед деплоем проек
 
 Перед деплоем проверьте:
 
-- Telegram Саши уже установлен: `https://t.me/dvertton`;
+- Telegram Александра уже установлен: `https://t.me/dvertton`;
 - Telegram Владимира уже установлен: `https://t.me/itamqo`;
-- phone Саши уже установлен и отображается: `+7 999 006-60-70`;
+- phone Александра уже установлен и отображается: `+7 999 006-60-70`;
 - phone Владимира уже установлен и отображается: `+7 952 212-61-93`;
 - metadata в `src/app/layout.tsx`;
 - favicon placeholder в `src/app/icon.svg`;
