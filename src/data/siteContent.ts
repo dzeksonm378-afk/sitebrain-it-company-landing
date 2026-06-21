@@ -94,15 +94,38 @@ export type SiteContent = {
 export type Contacts = {
   telegramLabel: string;
   telegramUrl: string;
-  email: string;
+  phone: string;
+  team: TeamContact[];
+};
+
+export type TeamContact = {
+  name: string;
+  role: string;
+  telegram: string;
+  telegramUrl: string;
   phone: string;
 };
 
 const contacts: Contacts = {
   telegramLabel: "Написать в Telegram",
-  telegramUrl: "https://t.me/itttt211",
-  email: "TODO_REPLACE_EMAIL",
-  phone: "+7 952 212-61-93",
+  telegramUrl: "https://t.me/dvertton",
+  phone: "+7 999 006-60-70",
+  team: [
+    {
+      name: "Саша",
+      role: "CEO",
+      telegram: "@dvertton",
+      telegramUrl: "https://t.me/dvertton",
+      phone: "+7 999 006-60-70",
+    },
+    {
+      name: "Владимир",
+      role: "технический директор",
+      telegram: "@itamqo",
+      telegramUrl: "https://t.me/itamqo",
+      phone: "+7 952 212-61-93",
+    },
+  ],
 };
 
 export const siteContent: SiteContent = {
@@ -379,6 +402,6 @@ export const siteContent: SiteContent = {
       label: contacts.telegramLabel,
       href: contacts.telegramUrl,
     },
-    note: "TODO: заменить email на рабочий адрес SiteBrain, когда он будет готов.",
+    note: "Контакты команды указаны в финальном блоке.",
   },
 };

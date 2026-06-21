@@ -60,7 +60,7 @@
 ## Stage 4 — Manual QA, real contact replacement, final mobile review and deploy preparation — complete
 
 - [x] Заменить старый Telegram placeholder на реальный Telegram.
-- [x] Оставить `TODO_REPLACE_EMAIL` до появления рабочего email.
+- [x] Убрать email placeholder из публичных контактов.
 - [x] Заменить старый phone placeholder на реальный телефон.
 - [x] Проверить все CTA перед показом клиентам.
 - [x] Проверить SEO metadata / Open Graph на отсутствие фейковых доменов.
@@ -89,7 +89,7 @@
 - [x] Сделать Target Audience → Pricing заметно плотнее.
 - [x] Сократить тексты в Hero, Services, Pricing, Portfolio, Process, Why Us и Final CTA.
 - [x] Сохранить анимации Stage 4.1, но сделать glow/floating мягче.
-- [x] Оставить реальные контакты без изменений.
+- [x] Сохранить актуальные контакты без изменений.
 - [x] Выполнить `npm run lint`.
 - [x] Выполнить `npm run build`.
 - [x] Проверить локально `/`, `/icon.svg` и `/brand/sitebrain-logo.jpg` через HTTP.
@@ -103,4 +103,4 @@
 - [ ] Проверить CTA на live URL.
 - [ ] Проверить mobile layout на live URL.
 - [ ] Проверить favicon и metadata на live URL.
-- [ ] Заменить `TODO_REPLACE_EMAIL`, когда появится рабочий email.
+- [ ] Проверить актуальность командных контактов на live URL.

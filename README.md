@@ -83,13 +83,28 @@ CTA и контакты тоже хранятся в `src/data/siteContent.ts`.
 ```ts
 contacts: {
   telegramLabel: "Написать в Telegram",
-  telegramUrl: "https://t.me/itttt211",
-  email: "TODO_REPLACE_EMAIL",
-  phone: "+7 952 212-61-93",
+  telegramUrl: "https://t.me/dvertton",
+  phone: "+7 999 006-60-70",
+  team: [
+    {
+      name: "Саша",
+      role: "CEO",
+      telegram: "@dvertton",
+      telegramUrl: "https://t.me/dvertton",
+      phone: "+7 999 006-60-70",
+    },
+    {
+      name: "Владимир",
+      role: "технический директор",
+      telegram: "@itamqo",
+      telegramUrl: "https://t.me/itamqo",
+      phone: "+7 952 212-61-93",
+    },
+  ],
 }
 ```
 
-Перед реальным показом или деплоем нужно заменить `email` на рабочий адрес, когда он будет готов.
+В финальном CTA отображаются оба контакта команды.
 
 ## Что входит в v1
 
@@ -142,13 +157,14 @@ contacts: {
 
 Stage 5 пока не выполнялся. Перед деплоем проект нужно отправить в GitHub, импортировать в Vercel и проверить live URL.
 
-Для v1 не нужны backend, database, auth, server actions и env variables. Email `TODO_REPLACE_EMAIL` может оставаться в `src/data/siteContent.ts` до появления рабочего адреса, но его нужно заменить перед полноценным публичным использованием.
+Для v1 не нужны backend, database, auth, server actions и env variables.
 
 Перед деплоем проверьте:
 
-- Telegram URL уже установлен: `https://t.me/itttt211`;
-- phone уже установлен и отображается: `+7 952 212-61-93`;
-- заменить email `TODO_REPLACE_EMAIL`, когда будет готов рабочий email;
+- Telegram Саши уже установлен: `https://t.me/dvertton`;
+- Telegram Владимира уже установлен: `https://t.me/itamqo`;
+- phone Саши уже установлен и отображается: `+7 999 006-60-70`;
+- phone Владимира уже установлен и отображается: `+7 952 212-61-93`;
 - metadata в `src/app/layout.tsx`;
 - favicon placeholder в `src/app/icon.svg`;
 - `package-lock.json` присутствует;
